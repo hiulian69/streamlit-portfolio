@@ -21,7 +21,7 @@ PAGE_TITLE = "Digital CV | Horia- Iulian State"
 PAGE_ICON = ":wave:"
 NAME = "Horia-Iulian State"
 DESCRIPTION = """
-Data Science student eager to learn new technique.
+Data Science student eager to learn. :-)
 """
 EMAIL = "horia.istate@gmail.com"
 SOCIAL_MEDIA = {
