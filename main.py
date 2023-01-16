@@ -31,7 +31,8 @@ SOCIAL_MEDIA = {
 }
 PROJECTS = {
     "🏆 Bank Chrun Prediction - Finding the most relevant features that predict Churning": "https://github.com/hiulian69/Bank_Churn_Prediction",
-    "🏆 Personal Spotify Data Dashboard in Tableau": "https://public.tableau.com/app/profile/horia.iulian.state/viz/SpotifyPersonalData_16715360463390/Dashboard2"
+    "🏆 Personal Spotify Data Dashboard in Tableau": "https://public.tableau.com/app/profile/horia.iulian.state/viz/SpotifyPersonalData_16715360463390/Dashboard2",
+    "🏆 First Personal Portfolio in streamlit":"https://github.com/hiulian69/streamlit-portfolio"
 }
 
 def load_lottieurl(url):
