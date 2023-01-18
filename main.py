@@ -29,11 +29,7 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/hiulian69/",
     "Instagram": "https://www.instagram.com/horiaiulian/",
 }
-PROJECTS = {
-    "🏗️ Bank Chrun Prediction - Finding the most relevant features that predict Churning": "https://github.com/hiulian69/Bank_Churn_Prediction",
-    "🏗️ Personal Spotify Data Dashboard in Tableau": "https://public.tableau.com/app/profile/horia.iulian.state/viz/SpotifyPersonalData_16715360463390/Dashboard2",
-    "🏗️ First Personal Portfolio in streamlit":"https://github.com/hiulian69/streamlit-portfolio"
-}
+
 
 BOOKS = {
     "📚 Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow - A. Geron":"https://www.amazon.de/-/en/Aur%C3%A9lien-G%C3%A9ron/dp/1098125975/ref=sr_1_1?keywords=hands-on+machine+learning+with+scikit-learn%2C+keras%2C+and+tensorflow&qid=1674061736&sprefix=hands-on+%2Caps%2C115&sr=8-1",
