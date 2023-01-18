@@ -30,10 +30,18 @@ SOCIAL_MEDIA = {
     "Instagram": "https://www.instagram.com/horiaiulian/",
 }
 PROJECTS = {
-    "🏆 Bank Chrun Prediction - Finding the most relevant features that predict Churning": "https://github.com/hiulian69/Bank_Churn_Prediction",
-    "🏆 Personal Spotify Data Dashboard in Tableau": "https://public.tableau.com/app/profile/horia.iulian.state/viz/SpotifyPersonalData_16715360463390/Dashboard2",
-    "🏆 First Personal Portfolio in streamlit":"https://github.com/hiulian69/streamlit-portfolio"
+    "🏗️ Bank Chrun Prediction - Finding the most relevant features that predict Churning": "https://github.com/hiulian69/Bank_Churn_Prediction",
+    "🏗️ Personal Spotify Data Dashboard in Tableau": "https://public.tableau.com/app/profile/horia.iulian.state/viz/SpotifyPersonalData_16715360463390/Dashboard2",
+    "🏗️ First Personal Portfolio in streamlit":"https://github.com/hiulian69/streamlit-portfolio"
 }
+
+BOOKS = {
+    "📚 Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow - A. Geron":"https://www.amazon.de/-/en/Aur%C3%A9lien-G%C3%A9ron/dp/1098125975/ref=sr_1_1?keywords=hands-on+machine+learning+with+scikit-learn%2C+keras%2C+and+tensorflow&qid=1674061736&sprefix=hands-on+%2Caps%2C115&sr=8-1",
+    "📚 Storytelling with data - C. Nussbaumer Knaflic":"https://www.amazon.de/-/en/Cole-Nussbaumer-Knaflic/dp/1119002257/ref=sr_1_2?crid=1EQ2IJTCUT01V&keywords=geschichtenerz%C3%A4hlen+mit+daten&qid=1674061822&sprefix=Storytelling+with+data%2Caps%2C122&sr=8-2",
+    "📚 The Art of Statistics - D . Spiegelhalter":"https://www.amazon.de/-/en/David-Spiegelhalter/dp/0241258766/ref=sr_1_1?crid=1QWAT6NFVE2NQ&keywords=The+Art+of+Statistics+-+D+.+Spiegelhalter&qid=1674061898&sprefix=the+art+of+statistics+-+d+.+spiegelhalter%2Caps%2C136&sr=8-1"
+    
+}
+
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -126,3 +134,10 @@ with st.container():
         st.button("English - C1")     
         st.button("Romanian - Native")
  
+
+with st.container():
+    st.write('\n')
+    st.write("---")
+    st.header("Books that made me fall in love with the field")
+    for book, link in BOOKS.items():
+        st.write(f"[{book}]({link})")
