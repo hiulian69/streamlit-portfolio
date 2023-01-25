@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 from pathlib import Path 
 
 
-st.set_page_config(page_title="My Webpage", page_icon=":wave:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":wave:", layout="centered")
 
 #st.sidebar.success("Select page")
 
