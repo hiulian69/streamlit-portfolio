@@ -15,6 +15,6 @@ st_lottie(lottie_media, height=300, key="coding")
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].button(f"[{platform}]({link})")
+    cols[index].write(f"[{platform}]({link})")
     
         
