@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 from main import load_lottieurl, SOCIAL_MEDIA
+import webbrowser
 #import webbrowser
 
 
@@ -15,3 +16,5 @@ st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
+    if st.button(platform):
+        webbrowser.open_new_tab(link)
