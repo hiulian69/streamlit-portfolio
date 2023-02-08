@@ -25,7 +25,7 @@ Data Science student eager to learn. :-)
 """
 EMAIL = "horia.istate@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/horia-iulian-state-994ab7252/",
+    "LinkedIn": "www.linkedin.com/in/horia-iulian ",
     "GitHub": "https://github.com/hiulian69/",
     "Instagram": "https://www.instagram.com/horiaiulian/",
 }
